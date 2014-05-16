@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    background: #F0FDFF;
+    font-family: Arial, Verdana, Geneva, sans-serif;
+}
+h1 {
+    font-size:20px;
+    color:#033;
+}
+a {
+    text-decoration: none;
+    font-size:16px;
+    color:#033;
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -ms-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+}
+a:hover {
+    color: #527f52;
+}
+
+
+
+
+/* AUTH FORM */
+form#auth table {
+    background: #F4FFCA;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -135px;
+    height: 160px;
+    width: 270px;
+    border-radius: 10px;
+}
+form#auth td.aut_top {
+    background: #A4FFA4;
+    border-radius: 10px 10px 0 0;
+    height:50px;
+    padding: 5px;
+}
+form#auth font.aut {
+    font-size:20px;
+    color:#033;
+    margin:0 auto;
+}
+form#auth td.inp {
+    height:30px;
+    padding: 5px;
+}
+form#auth font.inp {
+    font-size:16px;
+    color:#033;
+    float:left;
+}
+form#auth td input.inp {
+    width:180px;
+    height:20px;
+    float:right;
+    border: 1px solid #FC0;
+    border-radius:5px;
+    background:#FF9;
+}
+form#auth td.aut_bottom {
+    background: #A4FFA4;
+    border-radius: 0 0 10px 10px;
+    height:50px;
+    padding: 5px;
+}
+form#auth td input.button {
+
+    background: #FF9;
+    font-size:16px;
+    border: 1px solid #FC0;
+    border-radius:3px;
+    padding: 3px;
+    -webkit-transition: background 0.5s ease;
+    -moz-transition: background 0.5s ease;
+    -ms-transition: background 0.5s ease;
+    -o-transition: background 0.5s ease;
+    transition: background 0.5s ease;
+}
+form#auth td input.button:hover {
+    background:#FC9;
+}
+
+
+
+
+/* tv series */
+a#exit {
+    float: right;
+    text-decoration: underline;
+}
+table#tv_series {
+    margin: 0 auto;
+    width: 960px;
+    height: auto;
+    background: #F4FFCA;
+    border-left: 1px solid #A4FFA4;
+    border-right: 1px solid #A4FFA4;
+}
+table#tv_series tr td {
+    border-bottom: 1px solid #A4FFA4;
+}
+table#tv_series #f_line {
+    background: #A4FFA4;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+}
+table#tv_series #s_line {
+    background: #A4FFA4;
+    text-decoration: underline;
+}
+table#tv_series td.title {
+    width: 30%;
+}
+table#tv_series td.desc {
+    width: 50%;
+}
+table#tv_series td.date {
+    text-align: center;
+    width: 20%
+}
+
+table#tv_series ol {
+    list-style: none;
+}
+table#tv_series ol ul {
+    padding: 0 0 0 40px;
+}
+
+/* TV SERIES PAGE */
+
+#content {
+    margin: 0 auto;
+    width: 60%;
+    height: 100%;
+    background: #F4FFCA;
+    border-left: 1px solid #A4FFA4;
+    border-right: 1px solid #A4FFA4;
+}
+#content div {
+    width: 15%;
+    height: 20%;
+    border: 1px solid #A4FFA4;
+    float: left;
+    text-align: center;
+}
